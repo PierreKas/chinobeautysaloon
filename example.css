@@ -126,3 +126,19 @@ footer {
     background-color: #333;
     color: #fff;
 }
+.btn-retour{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #fff;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+.btn-retour:hover {
+    background-color: #555;
+}
+.retour{
+    background-color: #333;
+}
