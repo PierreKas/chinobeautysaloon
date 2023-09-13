@@ -38,8 +38,21 @@ document.querySelectorAll('.hero a').forEach(anchor => {
         }
     });
 });
+// Sélectionnez toutes les images de la classe "service"
+const images = document.querySelectorAll('.service img');
 
-/*const images = document.querySelectorAll('.Images-Tresses');
+// Parcourez les images et ajoutez un gestionnaire d'événements de clic
+images.forEach(image => {
+    image.addEventListener('click', () => {
+        // Récupérez le prix à partir de l'attribut "data-price"
+        const price = image.getAttribute('data-price');
+        
+        // Affichez le prix (par exemple, dans une boîte de dialogue)
+        alert(`Prix : ${price} FC`);
+    });
+});
+
+/*const tresses = document.querySelectorAll('.Images-Tresses img');
 function animateImage(image) {
     image.style.transform = 'translateY(-20px)'; 
     setTimeout(() => {
@@ -47,7 +60,7 @@ function animateImage(image) {
     }, 2000); 
 }
 
-images.forEach((image, index) => {
+tresses.forEach((image, index) => {
     setTimeout(() => {
         animateImage(image);
     }, index * 250); 

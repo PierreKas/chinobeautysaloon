@@ -78,13 +78,41 @@ nav a {
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    flex-direction: column;
+}
+/*position image vente starts*/
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px; /* Espacement entre les images */
+    /*justify-content: space-between;*/
+}
+.ligne {
+    display: flex;
+    justify-content: space-between; /* Répartit les images de manière égale sur la ligne */
+    width: calc(20% - 20px); /* Pour afficher 5 images par ligne (100% / 5) avec une marge de 20px entre chaque image */
+    /*margin-bottom: 20px;  Espacement vertical entre les lignes */
+    text-align: center;
+    gap: 20px;
+}
+/*.image-container {
+    width: calc(20% - 20px); /* Pour afficher 5 images par ligne (100% / 5) avec une marge de 20px entre chaque image
+    margin-bottom: 20px;
+    text-align: center;
 }
 
-.service img {
-    max-width: 100%;
-    border-radius: 5px;
+.image-container {
+    width: 100%;
+    height: auto;
+}
+*/
+.service img{
+    gap: 50px;
 }
 
+/*position image vente ends*/
 .service h3 {
     font-size: 24px;
     margin-top: 10px;
@@ -92,6 +120,7 @@ nav a {
 
 .service p {
     margin-top: 10px;
+    
 }
 
 .about {
