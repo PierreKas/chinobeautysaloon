@@ -1,10 +1,10 @@
-/* Reset some default styles */
+
 body, h1, h2, h3, p, ul {
     margin: 0;
     padding: 0;
 }
 
-/* Global Styles */
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f7f7f7;
@@ -43,12 +43,12 @@ nav a {
     background-image: url('barbershop.jpg');
     background-size: cover;
     text-align: center;
-    padding: 100px 0;
+    padding: 20px 0;
 }
 
 .hero h2 {
     font-size: 36px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     color: #3b3434;
 }
 
@@ -68,7 +68,7 @@ nav a {
 }
 
 .services {
-    padding: 50px 0;
+    padding: 5px 0;
     text-align: center;
 }
 
@@ -142,3 +142,86 @@ footer {
 .retour{
     background-color: #333;
 }
+/* Animation starts*/
+.image1 {
+    animation: Image1 2s infinite alternate;
+}
+
+.image2 {
+    animation: Image2 2s infinite alternate;
+}
+.image3 {
+    animation: Image3 2s infinite alternate;
+}
+.image4 {
+    animation: Image4 2s infinite alternate;
+}
+.image5 {
+    animation: Image5 2s infinite alternate;
+}
+.image6 {
+    animation: Image6 2s infinite alternate;
+}
+.image7 {
+    animation: Image7 2s infinite alternate;
+}
+
+
+@keyframes Image1 {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-20px); 
+    }
+}
+
+@keyframes Image2 {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-20px); 
+    }
+}
+@keyframes Image3 {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px); 
+    }
+}
+@keyframes Image4 {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px); 
+    }
+}
+@keyframes Image5 {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-20px); 
+    }
+}
+@keyframes Image6 {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px); 
+    }
+}
+@keyframes Image7 {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-20px); 
+    }
+}
+/* Animation ends*/
