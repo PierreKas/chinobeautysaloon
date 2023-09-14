@@ -72,6 +72,14 @@ nav a {
     text-align: center;
 }
 
+.Tresse {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
 .service {
     margin: 20px;
     padding: 20px;
@@ -81,35 +89,21 @@ nav a {
 
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 /*position image vente starts*/
 .articles{
     display: flex;
     flex-wrap: wrap;
-    gap: 50px; /* Espacement entre les images */
-    /*justify-content: space-between;*/
+
 }
 .ligne {
     display: flex;
     justify-content: space-between; /* Répartit les images de manière égale sur la ligne */
-    width: calc(20% - 20px); /* Pour afficher 5 images par ligne (100% / 5) avec une marge de 20px entre chaque image */
-    /*margin-bottom: 20px;  Espacement vertical entre les lignes */
+    width: calc(25% - 20px); 
     text-align: center;
     gap: 20px;
-}
-/*.image-container {
-    width: calc(20% - 20px); /* Pour afficher 5 images par ligne (100% / 5) avec une marge de 20px entre chaque image
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.image-container {
-    width: 100%;
-    height: auto;
-}
-*/
-.service img{
-    gap: 50px;
+    
 }
 
 /*position image vente ends*/
