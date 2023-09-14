@@ -103,8 +103,8 @@ nav a {
     width: calc(25% - 20px); 
     text-align: center;
     gap: 20px;
-    
 }
+
 
 /*position image vente ends*/
 .service h3 {
@@ -300,5 +300,10 @@ footer {
 
     .contact a {
         margin-top: 5px;
+    }
+}
+@media (max-width: 480px) {
+    .ligne .image-container {
+        flex-basis: calc(50% - 20px); /* 2 images par ligne sur les écrans très petits */
     }
 }
