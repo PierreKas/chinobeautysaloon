@@ -283,7 +283,7 @@ body {
 /* Styles pour les écrans de petite taille (par exemple, smartphones) */
 @media (max-width: 480px) {
     header {
-        padding: 20px 0; /* Réduire la hauteur de l'en-tête */
+        padding: 15px 0; /* Réduire la hauteur de l'en-tête */
     }
 
     header h1 {
@@ -303,6 +303,9 @@ body {
         width: 300px;
         text-align: center;
         gap: 20px;
+    }
+    .image-container{
+        height: 300px;
     }
     /* Styles spécifiques pour d'autres sections peuvent être ajoutés ici */
 }
