@@ -96,13 +96,26 @@ nav a {
     display: flex;
     flex-wrap: wrap;
 
-}
+}/*
 .ligne {
     display: flex;
-    justify-content: space-between; /* Répartit les images de manière égale sur la ligne */
+    justify-content: space-between; /* Répartit les images de manière égale sur la ligne 
     width: calc(25% - 20px); 
     text-align: center;
     gap: 20px;
+}
+*/
+.ligne {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centrez les images horizontalement sur la ligne */
+    gap: 20px;
+    text-align: center;
+}
+
+.ligne .image-container {
+    flex-basis: calc(25% - 20px); /* 4 images par ligne avec une marge de 20px entre elles */
+    margin-bottom: 20px;
 }
 
 
@@ -302,8 +315,10 @@ footer {
         margin-top: 5px;
     }
 }
+
 @media (max-width: 480px) {
     .ligne .image-container {
-        flex-basis: calc(50% - 20px); /* 2 images par ligne sur les écrans très petits */
+        flex-basis: calc(50% - 20px); /* 2 images par ligne sur les écrans très petits*/
     }
 }
+ 
