@@ -96,28 +96,14 @@ nav a {
     display: flex;
     flex-wrap: wrap;
 
-}/*
+}
 .ligne {
     display: flex;
-    justify-content: space-between; /* Répartit les images de manière égale sur la ligne 
+    justify-content: space-between; /* Répartit les images de manière égale sur la ligne */
     width: calc(25% - 20px); 
     text-align: center;
     gap: 20px;
 }
-*/
-.ligne {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; /* Centrez les images horizontalement sur la ligne */
-    gap: 20px;
-    text-align: center;
-}
-
-.ligne .image-container {
-    flex-basis: calc(25% - 20px); /* 4 images par ligne avec une marge de 20px entre elles */
-    margin-bottom: 20px;
-}
-
 
 /*position image vente ends*/
 .service h3 {
@@ -261,64 +247,3 @@ footer {
     }
 }
 /* Animation ends*/
-
-/* responsive design*/
-/* Ajoutez ces styles à l'intérieur de votre fichier CSS actuel */
-@media (max-width: 768px) {
-    header {
-        padding: 10px 0;
-    }
-
-    header h1 {
-        font-size: 36px;
-    }
-
-    nav ul li {
-        margin-right: 10px;
-    }
-
-    .hero h2 {
-        font-size: 24px;
-    }
-
-    .btn {
-        padding: 10px 20px;
-    }
-
-    .services {
-        padding: 20px 0;
-    }
-
-    .Tresse {
-        margin: 10px;
-        padding: 10px;
-    }
-
-    .service {
-        margin: 10px;
-        padding: 10px;
-    }
-
-    .service h3 {
-        font-size: 20px;
-    }
-
-    .about p {
-        font-size: 16px;
-    }
-
-    .contact {
-        padding: 20px 0;
-    }
-
-    .contact a {
-        margin-top: 5px;
-    }
-}
-
-@media (max-width: 480px) {
-    .ligne .image-container {
-        flex-basis: calc(50% - 20px); /* 2 images par ligne sur les écrans très petits*/
-    }
-}
- 
