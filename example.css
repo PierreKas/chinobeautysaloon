@@ -304,9 +304,11 @@ footer {
 }
 @media (max-width: 480px) {
     .ligne .image-container {
-        flex-basis: calc(50% - 20px); /* 2 images par ligne sur les écrans très petits */
-        height: 300;
-        width: 200;
+        
+        height: 300px;
+        width: 200px;
+        margin: 0 auto;
+        display: block;
     }
     body {
         font-size: 12px; /* Exemple : Réduire encore la taille de la police pour les smartphones */
