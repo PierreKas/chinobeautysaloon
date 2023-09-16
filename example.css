@@ -301,6 +301,12 @@ footer {
     .contact a {
         margin-top: 5px;
     }
+    .ligne .image-container {
+        height: 300px; /* Add 'px' to specify the height and width values */
+        width: 200px;
+        margin: 0 auto; /* Center-align the images within the column */
+        display: block;
+}
 }
 @media (max-width: 480px) {
     .ligne .image-container {
