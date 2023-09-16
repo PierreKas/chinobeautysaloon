@@ -305,5 +305,16 @@ footer {
 @media (max-width: 480px) {
     .ligne .image-container {
         flex-basis: calc(50% - 20px); /* 2 images par ligne sur les écrans très petits */
+        height: 300;
+        width: 200;
+    }
+    body {
+        font-size: 12px; /* Exemple : Réduire encore la taille de la police pour les smartphones */
+    }
+    header h1 {
+        font-size: 24px; /* Ajustez la taille de la police du titre pour les smartphones */
+    }
+    nav ul {
+        display: none; /* Masquer le menu de navigation pour les smartphones (vous pouvez le révéler en cliquant sur un bouton hamburger si nécessaire) */
     }
 }
